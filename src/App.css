@@ -1,0 +1,101 @@
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'
+.container {
+  -webkit-box-shadow: #d4cece 1em 1em 1em;
+          box-shadow: #d4cece 1em 1em 1em;
+  border: 2px rgba(226, 218, 218, 0.475) solid;
+  margin: 3em auto;
+
+}
+
+.container .section1 {
+  text-align: center;
+  padding-top: 3em;
+}
+
+.container h2 {
+  text-align: center;
+  border-bottom: 4px black solid;
+  padding: 1em;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.container .scrumboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+.container .scrumboard .cat {
+  text-transform: uppercase;
+  background-color: #e1eece;
+  border: thin grey solid;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 24%;
+          flex: 0 0 24%;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 2em;
+  border-radius: 2em;
+  height: 70vh;
+  border: thin rgba(128, 128, 128, 0.468) solid;
+  -webkit-box-shadow: rgba(140, 165, 140, 0.852) 0.1em 0.2em 0.5em;
+          box-shadow: rgba(140, 165, 140, 0.852) 0.1em 0.2em 0.5em;
+}
+
+.container .scrumboard .cat h3 {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.container .scrumboard .cat .form-group {
+  border: thin rgba(128, 128, 128, 0.468) solid;
+  -webkit-box-shadow: rgba(140, 165, 140, 0.852) 0.1em 0.2em 0.5em;
+          box-shadow: rgba(140, 165, 140, 0.852) 0.1em 0.2em 0.5em;
+  margin: 1em;
+  text-align: left;
+  padding: .5em 1em;
+  border-radius: 1em;
+  text-transform: uppercase;
+  background-color: white;
+}
+
+.container .scrumboard .cat .form-group #requestInput {
+  display: block;
+  border: none;
+  border-bottom: thin grey solid;
+}
+
+.container .scrumboard .cat .form-group label {
+  padding-top: 1em;
+}
+
+.container .scrumboard .cat .form-group #assignInput {
+  display: block;
+  border: none;
+  border-bottom: thin grey solid;
+}
+
+.container .scrumboard .cat .form-group .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 30%;
+          flex: 1 0 30%;
+  font-size: .5em;
+  padding-top: 2em;
+}
+
+.container .scrumboard .cat .form-group .date input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: thin grey solid;
+}
+/*# sourceMappingURL=style.css.map */
